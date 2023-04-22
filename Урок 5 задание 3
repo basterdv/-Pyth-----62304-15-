@@ -1,0 +1,15 @@
+x = int(input('Введите минимальную сумму инвестиций '))
+a = int(input('Введите колличество долларов у Майкла '))
+b = int(input('Введите колличество долларов у Ивана '))
+sum = a + b
+if a >= x and b >= x:
+  print(2)
+else:
+  if a>=x and b<x:
+    print('Mike')  
+  if b>=x and a<x:
+    print('Ivan') 
+  if a<x and b<x and sum<x:
+    print(0)  
+  if sum >= x and a<x and b<x:
+    print(1)  
