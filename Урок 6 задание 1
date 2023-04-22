@@ -1,0 +1,14 @@
+N = int(input('Введите число '))
+new_spisok=[]
+print('Введите ', N,' целых чисел' )
+a=1
+while a <= N:
+  print('Введите ', a, 'число')
+  m = int(input())
+  new_spisok.append(m)
+  a+=1
+z=0  
+for i in range(N):
+  if new_spisok[i-1] == 0:
+    z +=1
+print('числел чисел равных 0 - ', z)
