@@ -1,0 +1,38 @@
+word = input('Напишите слово из маленьких латинских букв ')
+length = len(word)
+vo = 0
+so = 0
+a = 0
+e = 0
+i2 = 0
+o = 0
+u = 0
+for i1 in range(length):
+  w=word[i1]
+  if w == 'a' or w == 'e' or w == 'i' or w == 'o' or w == 'u':
+    if w == 'a':
+      a+=1
+    if w == 'e':
+      e +=1
+    if w == 'i':
+      i2 +=1
+    if w == 'o':
+      o +=1
+    if w == 'u':
+      u +=1
+    vo +=1
+  else:
+     so +=1   
+if a == 0:
+  a = 'false'
+if e == 0:
+  e= 'false'  
+if i2 == 0:
+  i2 = 'false'  
+if o == 0:
+  o = 'false'  
+if u == 0:
+  u = 'false'  
+print('гласных букв ', vo , 'шт,', 'из них a -', a , ',e -', e , ',i -', i2 ,',o -', o ,',u -', u )
+
+print ('согласных букв ', so , 'шт')
