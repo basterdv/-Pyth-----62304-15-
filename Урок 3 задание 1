@@ -1,0 +1,10 @@
+print ("Введите вид питомца")
+view = input()
+view
+print("Введите возраст питомца")
+age = input()
+age
+print("Введите кличку питомца")
+nickname = input()
+nickname
+print ('это ' + view + ' по кличке ' + nickname + '.' 'Возраст ' +  age +' года.')
