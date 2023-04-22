@@ -1,0 +1,12 @@
+print("Введите по порядку этыпы развития человека")
+stage1 = input("Стадия 1 ") #Стадия 1
+stage1
+stage2 = input("Стадия 2 ") #Стадия 2
+stage2
+stage3 = input("Стадия 3 ") #Стадия 3
+stage3
+stage4 = input("Стадия 4 ") #Стадия 4
+stage4
+stage5 = input("Стадия 5 ") #Стадия 5
+stage5
+print(stage1,stage2,stage3,stage4,stage5, sep='=>')
