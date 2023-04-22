@@ -1,0 +1,17 @@
+number = input(' Введите целое число ')
+s1 = int(len(number))
+s1=s1-1
+s2 = int(number[s1])
+number = int(number)
+if number != 0:
+  if number < 0:
+    result = 'отрицательное'  
+  else:
+    result = 'положительное'  
+  if s2 == 1 or s2 == 3 or s2 == 5 or s2 == 7 or s2 == 9 :
+    result2 = ' нечетное'
+  else:
+    result2 = ' четное'  
+  print(result+result2+' число')    
+else:
+  print('нулевое число')
