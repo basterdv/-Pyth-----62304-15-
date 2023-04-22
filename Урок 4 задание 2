@@ -1,0 +1,10 @@
+number  = input ('Введите пятизначное целе число ')
+s1 = int(len(number))
+if s1 != 5:
+  print('Число не пятизначное ')
+else:  
+  new_spisok = []
+  for i in range(len(number)):
+    new_spisok.append(number[i])
+  result = ((int(new_spisok[3]) ** int(new_spisok[4])) * int(new_spisok[2]))/(int(new_spisok[0])-int(new_spisok[1]))
+  print(result)
