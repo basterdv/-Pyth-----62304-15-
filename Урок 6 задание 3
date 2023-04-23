@@ -1,0 +1,11 @@
+print('Введите два целый числа, первое число должно быть меньше второго')
+a = int(input('Ведите 1 целое число '))
+b = int(input('Введите 2 целое число '))
+if a <= b:
+  new_spisok=[]
+  for i  in range(a,b+1):
+    if i%2 == 0:
+      new_spisok.append(i)
+  print(*new_spisok, sep =' ')    
+else:
+  print('Первое число больше второго ')
