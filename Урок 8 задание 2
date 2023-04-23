@@ -1,0 +1,18 @@
+n = int(input('Введите число '))
+if n>=1 and n<=100000:
+  print('Введите через пробел ', n ,' чисел')
+  k = input()
+  m = k.split(" ")
+  cnt = len(m)
+  
+  if cnt == n:
+    new_spisok = []
+    new_spisok.append(m[cnt-1])
+    for i in range(0,cnt-1):
+      new_spisok.append(m[i])
+    print(*new_spisok)
+    #print(len(m))
+  else:
+    print('Введено не точное количество чисел')
+else:
+  print('число не соотвествует критерию')
