@@ -1,0 +1,7 @@
+n = int(input('Введите число '))
+new_spisok=[]
+for i in range(n):
+  k = int(input('Введите число '))
+  new_spisok.append(k)
+new_spisok.reverse()
+print(*new_spisok, sep=' ')
