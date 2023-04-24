@@ -1,0 +1,8 @@
+print('Введите числа первого списка')
+n = input()
+nt = set(n.split(" "))
+print('Введите числа второго списка')
+m = input()
+mt = set(m.split(" "))
+t = nt.intersection(mt)
+print(len(t))
