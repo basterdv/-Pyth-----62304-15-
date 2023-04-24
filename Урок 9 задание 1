@@ -1,0 +1,10 @@
+n = int(input('Введите количество чисел '))
+if n >= 1 and n <= 100000:
+  Ni = set()
+  print('Введите через пробел ', n ,' чисел')
+  m = input()
+  mt = m.split(" ")
+  Ni=set(mt)
+  print(len(Ni))
+else:
+  print('Число вне диапазона')
