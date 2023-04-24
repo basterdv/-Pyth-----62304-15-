@@ -1,0 +1,10 @@
+print('Введите последовательность чисел через пробел')
+n = input().split()
+m = set()
+for num in n:
+    
+    if num in m:
+        print('YES')
+    else:
+        print('NO')
+        m.add(num)
