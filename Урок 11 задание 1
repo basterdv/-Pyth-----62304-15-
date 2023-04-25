@@ -1,0 +1,16 @@
+def number(a): 
+  factorial = 1
+  for i in range(2, a+1):
+    factorial *= i
+  return(factorial)  
+  print(factorial)
+
+def spisok(b):
+  new_spisok=[]
+  for i in range(b,0,-1):
+    #number(i)
+    new_spisok.append(number(i))
+  print(new_spisok)
+
+a = int(input('Введите натуральное целое число '))
+spisok(number(a))
